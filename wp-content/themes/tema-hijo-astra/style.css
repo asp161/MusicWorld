@@ -1,0 +1,55 @@
+/*
+Theme Name: Mi Tema Hijo
+Theme URI: http://ejemplo.com/mi-tema-hijo/
+Description: Tema hijo de Astra
+Author: Asp161
+Author URI: http://tu-sitio-web.com/
+Template: astra
+Version: 1.0.0
+*/
+
+/* Agrega tus estilos CSS debajo de este comentario */
+.product {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 2px 2px 5px #ccc;
+}
+
+.product img {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.product-details {
+  flex: 1;
+}
+
+.product-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.product-author {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.product-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
